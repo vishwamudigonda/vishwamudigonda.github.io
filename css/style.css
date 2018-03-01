@@ -206,7 +206,7 @@ ul.address-text b {
 }
 /*--social-icons--*/
 ul.social-icons{
-	   display: block;
+	    display: block;
     padding: 0;
     background:#00a78e;
     padding:1.3em 0;
@@ -218,6 +218,29 @@ ul.social-icons{
     margin-right: 1%;
 }
 
+}
+.social-icons li a:before {
+	content: '';
+    display: block;
+    height: 32px;
+    width: 32px;
+       border: 2px solid #fff;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg); 
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);	
+}
+.social-icons li a.fb{
+	background-position: 3px -30px;
+}
+.social-icons li a.in{
+      background-position: 3px -62px;
+}
+.social-icons li a.dott {
+background-position: 3px -94px;
+}
 .social-icons li a:hover::before {
     border-color: #00a78e;
 	    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
@@ -1083,7 +1106,7 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
 ul.social-icons.two {
     display: block;
     padding: 0;
-    margin: 2em 0;
+    margin: 1.5em 0;
     background: none;
 }
 .navbar-default .navbar-nav > li > a.active {
@@ -1949,5 +1972,3 @@ span.border.two:after {
 		padding: 6px 0;
 	}
 }
-
-
