@@ -227,19 +227,7 @@ ul.social-icons{
     transition: .5s all;
     -moz-transition: .5s all;
 }
-.social-icons li a:before {
-	content: '';
-    display: block;
-    height: 32px;
-    width: 32px;
-       border: 2px solid #fff;
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	-ms-transform: rotate(45deg); 
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);	
-}
+
 .social-icons li a.fb{
 	background-position: 3px -30px;
 }
@@ -1980,3 +1968,5 @@ span.border.two:after {
 		padding: 6px 0;
 	}
 }
+
+
