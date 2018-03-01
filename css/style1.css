@@ -1,6 +1,6 @@
 /*----- Genral Classes start ------*/
 body {
-	background: #2C303C;
+	background: none;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 100%;
 	margin: 0;
@@ -9,7 +9,7 @@ body {
 h1 {
 	text-align: center;
 	color: #999;
-	background: rgba(0, 0, 0, 0.36);
+	background: none;
 	margin: 0;
 	padding: 5px;
 }
