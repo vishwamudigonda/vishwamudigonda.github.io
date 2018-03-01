@@ -217,16 +217,6 @@ ul.social-icons{
     display: inline-block;
     margin-right: 1%;
 }
-.social-icons li a{  
-    background: url(../images/social-icons2.png) no-repeat 3px 3px;
-    display: block;
-    height: 32px;
-    width: 32px;
-	margin-right: 1em;
-	-webkit-transition: .5s all;
-    transition: .5s all;
-    -moz-transition: .5s all;
-}
 
 .social-icons li a:hover::before {
     border-color: #00a78e;
