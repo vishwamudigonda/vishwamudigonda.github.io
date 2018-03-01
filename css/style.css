@@ -206,7 +206,7 @@ ul.address-text b {
 }
 /*--social-icons--*/
 ul.social-icons{
-	   display: inline-block;
+	   display: block;
     padding: 0;
     background:#00a78e;
     padding:1.3em 0;
