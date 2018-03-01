@@ -206,7 +206,7 @@ ul.address-text b {
 }
 /*--social-icons--*/
 ul.social-icons{
-	    display: none;
+	   display: inline-block;
     padding: 0;
     background:#00a78e;
     padding:1.3em 0;
@@ -228,15 +228,6 @@ ul.social-icons{
     -moz-transition: .5s all;
 }
 
-.social-icons li a.fb{
-	background-position: 3px -30px;
-}
-.social-icons li a.in{
-      background-position: 3px -62px;
-}
-.social-icons li a.dott {
-background-position: 3px -94px;
-}
 .social-icons li a:hover::before {
     border-color: #00a78e;
 	    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
